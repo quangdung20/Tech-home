@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-size: 14px;
+    font-family:  Arial, Helvetica, sans-serif;;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+a{
+    color: #485fc7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.about__box-icon{
+    margin: 0 10px 0 7px;
+    font: 16px sans-serif;
+    font-size: 20px;
+    color: rgb(81, 22, 169);
+
+}
+.about__box-content {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.5;
+        color: rgb(81, 22, 169);
+}

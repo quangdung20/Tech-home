@@ -1,0 +1,17 @@
+1. Phân tích
+   1, header
+   2, content
+      a, slide
+      b, nhúng video youtube
+      c, section name-product
+   3. content-list-item
+      a, product-list-item
+   4. advertisement 
+   5.  section name-product
+   6. content-list-item
+      a, product-list-item
+   7. contact
+
+   8. footer 
+
+   
