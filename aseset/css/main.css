@@ -8,9 +8,10 @@
 body {
     font-size: 14px;
     font-family:  Arial, Helvetica, sans-serif;;
-    width: 100%;
     overflow-x: hidden;
-    
+    z-index: 1;
+    height: 5000px;
+    /* max-width: 2000px; */
 }
 a{
     color: #485fc7;
@@ -26,8 +27,16 @@ a{
 
 }
 .about__box-content {
-        font-size: 12px;
-        font-weight: bold;
-        line-height: 1.5;
-        color: rgb(81, 22, 169);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(81, 22, 169);
+}
+
+.block-top-home{
+   
+}
+.slider{
+    margin-top:70px;
+    margin-left: 70px;
 }

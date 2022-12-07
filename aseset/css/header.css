@@ -1,8 +1,9 @@
 /* // header */
-header {
-    position: relative;
-    flex-direction: column;
-    float: left;
+.cps-header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
 }
 
@@ -13,7 +14,7 @@ header {
     align-items: center;
     
 }
-.container {
+.cps-container{
     max-width: 1250px;
     margin: 0 auto;
     display: block;
@@ -65,17 +66,14 @@ header {
     background: hsla(0,0%,100%,.2);
 }
 
-.location-container {
-    /* flex: center; */
-    
-}
+
+s
 .location-title {
     padding-bottom: 10px;
     font: 12px sans-serif;
 }
 .location-name {
     color:  #12555d;
-    background-color: none; 
     height: 25px;
     font: 14px sans-serif;
     border-radius: 10px;
@@ -85,16 +83,13 @@ header {
   
 }
  .name-loc{   
-     background-color: #c69a39;
-     color: rgb(117, 0, 0);
+     background-color: #d69aef;
+     color: rgb(81, 22, 169); 
   }
  
   /* search btn */
- .box-search{
-  }
- .input-btn{
- 
-  }
+
+
 .input-btn-search{
     padding-left: 10px;
     background-color: #fff;
@@ -114,14 +109,6 @@ header {
   }
 
   /* contact */
- 
-
-.about-cart {
-}
- .title{
- 
-  }
-
 /*About user */
 .about-user{
     flex-flow: column;
